@@ -19,3 +19,71 @@ background-color: aquamarine;
 .footer{
 background-color: black;
 }
+.boton{
+    position: fixed;
+top: 20px;
+left: 20px;
+padding: 10px 20px;
+background-color: rgb(118, 200, 233);
+ color: black;
+ text-decoration: none;
+ border-radius: 5px;
+}
+.boton:hover{
+    background: linear-gradient(to right,#5feb99,#3ae024,#c5f006);
+}
+  .boton:active{
+    font-size: 15px;
+  }
+  h2{
+   position: absolute;
+    left: 40%;
+  }
+   ul{
+    position: fixed;
+    top: 10%;
+   }
+   html, body {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.coluna {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coluna img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+   
+  }
+
+.ima1 {
+width: 300px;
+height: 200px;
+}
+.ima2 {
+    width: 300px;
+    height: 200px;
+}
+.ima3 {
+    width: 300px;
+    height: 200px;
+}
+.ima4 {
+    width: 300px;
+    height: 200pxs;
+}
+.video {
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+}
